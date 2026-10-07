@@ -2,8 +2,8 @@
 
 Mobile-friendly study and timed-exam practice based on February 2026 OR100, OR350, and CLN251/252 course concepts.
 
-- 60 original questions: 16 OR100, 24 OR350, 20 CLN251/252.
-- Single-answer and select-all questions, shuffled questions/choices, flags, and a question navigator.
+- 120 original questions: 32 OR100, 48 OR350, 40 CLN251/252.
+- Single-answer, true/false, and select-all questions (including select-all items with only one correct answer), shuffled questions/choices, flags, and a question navigator.
 - Study mode gives explanations after checking each answer. Exam mode withholds feedback until submission and uses a wall-clock deadline.
 - Automatic local save/resume, course breakdowns, missed-question retry, recent scores, and JSON results download.
 - Every rationale identifies the With Answers companion and PDF page(s). The source PDFs are not hosted here.
@@ -19,3 +19,7 @@ Edit `build_bank.py` to maintain questions, then run `python build_bank.py` and 
 Publish the standalone `index.html` in the root of a GitHub repository and enable Pages from the `main` branch root. Pages hosting is generally public. No PDFs, training logins, patient examples from the guides, source extracts, or personal study history belong in the repository.
 
 Local progress is browser/device-specific and limited to 30 recent score summaries plus the latest session. Clearing browser storage clears it. The timer continues away from the tab; an expired saved session submits on reopening. Study answers lock after checking. Select-all is one point only for an exact set; unanswered is incorrect. All questions are one point.
+
+## Format research
+
+See [EXAM_FORMAT.md](EXAM_FORMAT.md) for sources, dates, verified interaction details, and limits of the simulation. Select-all can have one or several correct answers. The 120-question bank is a practice pool, not a claim about actual exam length.
